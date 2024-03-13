@@ -7,9 +7,7 @@ import threading
 openai.api_base = "https://api.openai.com/v1"
 
 # 替换为您自己的OpenAI API密钥列表
-api_keys = [
-    "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",  
-] 
+api_keys = os.environ.get("API_KEYS",None).strip().split(",") 
 
 # 创建Flask应用程序
 app = Flask(__name__)
@@ -69,7 +67,7 @@ def get_response():
             messages.append({"role": "user", "content": user_input})
         selected_api_key = random.choice(api_keys)
         openai.api_key = selected_api_key.strip()
-        if len(messages) > 1:
+        if len(messages) > 5:
             messages.pop(0)
 
     response = openai.ChatCompletion.create(
