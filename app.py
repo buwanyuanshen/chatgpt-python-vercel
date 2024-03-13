@@ -4,10 +4,10 @@ import random
 import threading
 
 # 设置代理网址
-openai.api_base = os.environ.get("API_URL", None).strip()
+openai.api_base = os.environ.get("API_URL", "").strip()
 
 # 替换为您自己的OpenAI API密钥列表
-api_keys = os.environ.get("API_KEYS",None).strip().split(",") 
+api_keys = os.environ.get("API_KEYS","").strip().split(",") 
 
 # 创建Flask应用程序
 app = Flask(__name__)
