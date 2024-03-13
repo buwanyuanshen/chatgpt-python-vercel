@@ -4,7 +4,7 @@ import random
 import threading
 
 # 设置代理网址
-openai.api_base = "https://api.openai-proxy.com/v1"
+openai.api_base = "https://api.openai.com/v1"
 
 # 替换为您自己的OpenAI API密钥列表
 api_keys = [
