@@ -16,8 +16,7 @@ API_Keys支持多个填写，以英文逗号分隔即可！
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/24374c6f-2b57-4e89-a4db-c8cceaed26c8)
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/eb2beaa6-496a-44c3-9330-f6cb6c747f28)
 
-# gpt-stream-0125效果图：
-![_VXKRV_VT6S(H5}Y(E`9AMX](https://github.com/buwanyuanshen/chatgpt-python/assets/144007759/1a691719-20ce-4e22-b1dc-19d36ef6faee)
+
 # 截止2024.3.13最新ChatGPT免费使用网址，还在更新中！：
 1. [Gemini Pro](https://ccfgpt.cn)
 2. [Gemini Plus](https://66.ccf666.cn)
