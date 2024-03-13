@@ -2,12 +2,13 @@ from flask import Flask, render_template, request, Response, jsonify
 import openai
 import random
 import threading
+import os
 
 # 设置代理网址
-openai.api_base = os.environ.get("API_URL", "").strip()
+openai.api_base = os.environ.get("API_URL", None).strip()
 
 # 替换为您自己的OpenAI API密钥列表
-api_keys = os.environ.get("API_KEYS","").strip().split(",") 
+api_keys = os.environ.get("API_KEYS",None).strip().split(",") 
 
 # 创建Flask应用程序
 app = Flask(__name__)
