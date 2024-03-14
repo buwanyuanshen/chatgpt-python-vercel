@@ -75,7 +75,8 @@ def get_response():
         model=selected_model,
         messages=messages,
         temperature=temperature,
-        max_tokens=max_tokens
+        max_tokens=max_tokens,
+        stream=True
       
     )
     collected_messages = []
