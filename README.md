@@ -7,7 +7,7 @@ API_Keys支持多个填写，以英文逗号分隔即可！
 | 环境变量 | 说明 | 建议值（示例） |用处| vercel 部署|
 | --- | --- | --- | --- | --- |
 | API_KEYS | OpenAI API 密钥 |  sk-xxxxx,sk-xxxxx | 用于所有模型 |  ✅|
-| API_URL | OpenAI API 接口地址 | https://api.openai.com | 用于所有模型 |  ✅|
+| API_URL | OpenAI API 接口地址 | https://api.openai.com/v1 | 用于所有模型 |  ✅|
 # 项目gpt3.5效果如图:
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/b9c3b64d-8483-45d5-9ccd-548a2a96112e)
 ![image](https://github.com/buwanyuanshen/Chatgpt-python/assets/144007759/81188db0-c9ef-4ca4-840b-df8d26de2256)
@@ -35,4 +35,4 @@ API_Keys支持多个填写，以英文逗号分隔即可！
 vercel只支持静态网页，所以使用一键部署无法实现流式输出，且未实现代码高亮等功能！
  
 ## 手动本地部署
- 请前往[ChatGPT-website-plus](https://github.com/buwanyuanshen/chatgpt-python)查看详细部署和配置方法！！！
+ 请前往[chatgpt-python](https://github.com/buwanyuanshen/chatgpt-python)查看详细部署和配置方法！！！
