@@ -37,7 +37,7 @@ vercel只支持静态网页，所以使用一键部署无法实现流式输出�
 ## 手动本地部署
  请前往[chatgpt-python](https://github.com/buwanyuanshen/chatgpt-python)查看详细部署和配置方法！！！
 ## 其余项目网址
-1.[chatgpt-website-forward-vercel(前端)](https://github.com/buwanyuanshen/chatgpt-website-forward-vercel),一键部署有流式。
+1.[chatgpt-website-forward-vercel(前端)](https://github.com/buwanyuanshen/ChatGPT-website-forward-vercel),一键部署有流式。
 
 2.[ChatGPT-website-vercel(后端)](https://github.com/buwanyuanshen/ChatGPT-website-vercel),一键部署无流式。
 
