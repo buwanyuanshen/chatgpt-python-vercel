@@ -330,17 +330,26 @@ body {
         return; // 如果按钮不可点击，则不执行任何操作
     }
 
-    // 禁用按钮
-    isButtonClickable = false;
-    setTimeout(function () {
-        // 在一定时间后重新启用按钮
-        isButtonClickable = true;
-    }, 1000); 
-        
-        if (user_input === "") {
-            alert("请输入有效的消息内容。");
-            return; 
-        }
+// 禁用按钮
+isButtonClickable = false;
+setTimeout(function () {
+    // 在一定时间后重新启用按钮
+    isButtonClickable = true;
+}, 1000);
+
+if (user_input === "") {
+    alert("请输入有效的消息内容。");
+    return; 
+}
+
+// 监听键盘事件
+document.addEventListener("keydown", function(event) {
+    // 如果按钮不可点击，则阻止回车键默认行为
+    if (!isButtonClickable && event.key === "Enter") {
+        event.preventDefault();
+    }
+});
+
 
       
         fetch("/get_response", {
